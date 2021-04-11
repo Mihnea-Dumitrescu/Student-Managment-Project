@@ -11,52 +11,70 @@ namespace Student_Managment_Project
 {
 
 
-    public partial class AdminPage
+    public partial class Student
     {
 
         /// <summary>
-        /// DropDownList1 control.
+        /// head control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
 
         /// <summary>
-        /// ButSubmit control.
+        /// form1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButSubmit;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// GdCourse control.
+        /// LabUserLogin control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GdCourse;
+        protected global::System.Web.UI.WebControls.Label LabUserLogin;
 
         /// <summary>
-        /// GdStudent control.
+        /// LnkCourses control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GdStudent;
+        protected global::System.Web.UI.WebControls.LinkButton LnkCourses;
 
         /// <summary>
-        /// GdTutor control.
+        /// LnkAssignments control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GdTutor;
+        protected global::System.Web.UI.WebControls.LinkButton LnkAssignments;
+
+        /// <summary>
+        /// LnkLogout control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LnkLogout;
+
+        /// <summary>
+        /// ContentPlaceHolder1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
     }
 }

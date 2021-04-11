@@ -19,7 +19,12 @@ namespace Student_Managment_Project
             if (TxtAdminId.Text == "Admin" && TxtPwdAdmin.Text == "Admin123")
             {
                 Session["Adminname"] = "Welcome " + TxtAdminId.Text;
-                Response.Redirect("AdminPage.aspx");
+                Response.Redirect("Admin/AdminHomePage.aspx");
+            }
+            else if (TxtAdminId.Text == "Mihnea" && TxtPwdAdmin.Text == "abc")
+            {
+                Session["Adminname"] = "Welcome " + TxtAdminId.Text;
+                Response.Redirect("StudentHome.aspx");
             }
             else
             {
