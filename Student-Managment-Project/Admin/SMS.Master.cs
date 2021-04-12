@@ -23,28 +23,28 @@ namespace Student_Managment_Project
 
         protected void LnkCourse_Click(object sender, EventArgs e)
         {
-            Response.Redirect("CoursePage.aspx");
+            Response.Redirect("CourseCreator.aspx");
         }
 
         protected void LnkTeacher_Click(object sender, EventArgs e)
         {
-            Response.Redirect("TutorPage.aspx");
+            Response.Redirect("TeacherCreator.aspx");
         }
 
         protected void LnkStudent_Click(object sender, EventArgs e)
         {
-            Response.Redirect("StudentPage.aspx");
+            Response.Redirect("StudentCreator.aspx");
         }
 
         protected void LnkLogout_Click(object sender, EventArgs e)
         {
             HttpContext.Current.Session.Abandon();
-            Response.Redirect("HomePage.aspx");
+            Response.Redirect("~/HomePage.aspx");
         }
 
         protected void LnkAdmin_Click(object sender, EventArgs e)
         {
-            Response.Redirect("AdminPage.aspx");
+            Response.Redirect("AdminHomePage.aspx");
         }
     }
 }

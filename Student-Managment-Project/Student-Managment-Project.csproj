@@ -67,27 +67,50 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AdminPage.aspx" />
-    <Content Include="CoursePage.aspx" />
+    <Content Include="Admin\AdminHomePage.aspx" />
+    <Content Include="Admin\CourseCreator.aspx" />
+    <Content Include="Admin\StudentCreator.aspx" />
+    <Content Include="Admin\TeacherCreator.aspx" />
     <Content Include="HomePage.aspx" />
-    <Content Include="StudentPage.aspx" />
-    <Content Include="TutorPage.aspx" />
+    <Content Include="Student\StudentHomePage.aspx" />
     <Content Include="Web.config" />
+    <Content Include="AdminRegistration.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdminPage.aspx.cs">
-      <DependentUpon>AdminPage.aspx</DependentUpon>
+    <Compile Include="Admin\AdminHomePage.aspx.cs">
+      <DependentUpon>AdminHomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminPage.aspx.designer.cs">
-      <DependentUpon>AdminPage.aspx</DependentUpon>
+    <Compile Include="Admin\AdminHomePage.aspx.designer.cs">
+      <DependentUpon>AdminHomePage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="CoursePage.aspx.cs">
-      <DependentUpon>CoursePage.aspx</DependentUpon>
+    <Compile Include="Admin\CourseCreator.aspx.cs">
+      <DependentUpon>CourseCreator.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="CoursePage.aspx.designer.cs">
-      <DependentUpon>CoursePage.aspx</DependentUpon>
+    <Compile Include="Admin\CourseCreator.aspx.designer.cs">
+      <DependentUpon>CourseCreator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SMS.Master.cs">
+      <DependentUpon>SMS.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SMS.Master.designer.cs">
+      <DependentUpon>SMS.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\StudentCreator.aspx.cs">
+      <DependentUpon>StudentCreator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\StudentCreator.aspx.designer.cs">
+      <DependentUpon>StudentCreator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\TeacherCreator.aspx.cs">
+      <DependentUpon>TeacherCreator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\TeacherCreator.aspx.designer.cs">
+      <DependentUpon>TeacherCreator.aspx</DependentUpon>
     </Compile>
     <Compile Include="HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
@@ -97,37 +120,41 @@
       <DependentUpon>HomePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SMS.Master.cs">
-      <DependentUpon>SMS.Master</DependentUpon>
+    <Compile Include="Student\Student.Master.cs">
+      <DependentUpon>Student.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="SMS.Master.designer.cs">
-      <DependentUpon>SMS.Master</DependentUpon>
+    <Compile Include="Student\Student.Master.designer.cs">
+      <DependentUpon>Student.Master</DependentUpon>
     </Compile>
-    <Compile Include="StudentPage.aspx.cs">
-      <DependentUpon>StudentPage.aspx</DependentUpon>
+    <Compile Include="Student\StudentHomePage.aspx.cs">
+      <DependentUpon>StudentHomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="StudentPage.aspx.designer.cs">
-      <DependentUpon>StudentPage.aspx</DependentUpon>
+    <Compile Include="Student\StudentHomePage.aspx.designer.cs">
+      <DependentUpon>StudentHomePage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="TutorPage.aspx.cs">
-      <DependentUpon>TutorPage.aspx</DependentUpon>
+    <Compile Include="AdminRegistration.aspx.cs">
+      <DependentUpon>AdminRegistration.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="TutorPage.aspx.designer.cs">
-      <DependentUpon>TutorPage.aspx</DependentUpon>
+    <Compile Include="AdminRegistration.aspx.designer.cs">
+      <DependentUpon>AdminRegistration.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\SMS.Master" />
     <None Include="packages.config" />
-    <Content Include="SMS.Master" />
+    <Content Include="Student\Student.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Teacher\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

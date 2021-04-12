@@ -11,12 +11,12 @@
         <div>
         <Center>
             <h1>Student Management System</h1>
-            <h2>asp.net C# Project</h2>
+            <h2></h2>
             <hr />
-            <div style="background-color:azure; height:88px; width:269px;">
+            <div style="background-color:azure; " class="auto-style1">
             <table border="1">
                 <tr>
-                    <td>Admin User ID</td>
+                    <td>User ID</td>
                     <td><asp:TextBox ID="TxtAdminId" runat="server"></asp:TextBox></td>
                 </tr>
                 <tr>
@@ -26,6 +26,9 @@
                 <tr>
                     <td><asp:Button ID="ButLogin" runat="server" Text="Login" OnClick="ButLogin_Click"></asp:Button></td>
                     <td><asp:Label ID="Labmsg" runat="server" Text="" ForeColor="Red"></asp:Label></td>
+                </tr>
+                <tr>
+                    <td><asp:Button ID="ButAdminRegistration" runat="server" OnClick="ButAdminRegistration_Click" Text="Admin Register"></asp:Button></td>
                 </tr>
             </table>
             </div>

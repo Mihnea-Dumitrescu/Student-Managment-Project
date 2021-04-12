@@ -7,12 +7,21 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Student_Managment_Project
+namespace Student_Managment_Project.Student
 {
 
 
-    public partial class HomePage
+    public partial class Student
     {
+
+        /// <summary>
+        /// head control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
 
         /// <summary>
         /// form1 control.
@@ -24,48 +33,57 @@ namespace Student_Managment_Project
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// TxtAdminId control.
+        /// LabUserLogin control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtAdminId;
+        protected global::System.Web.UI.WebControls.Label LabUserLogin;
 
         /// <summary>
-        /// TxtPwdAdmin control.
+        /// LnkStudentHome control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtPwdAdmin;
+        protected global::System.Web.UI.WebControls.LinkButton LnkStudentHome;
 
         /// <summary>
-        /// ButLogin control.
+        /// LnkCourses control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButLogin;
+        protected global::System.Web.UI.WebControls.LinkButton LnkCourses;
 
         /// <summary>
-        /// Labmsg control.
+        /// LnkAssignments control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Labmsg;
+        protected global::System.Web.UI.WebControls.LinkButton LnkAssignments;
 
         /// <summary>
-        /// ButAdminRegistration control.
+        /// LnkLogout control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButAdminRegistration;
+        protected global::System.Web.UI.WebControls.LinkButton LnkLogout;
+
+        /// <summary>
+        /// ContentPlaceHolder1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
     }
 }

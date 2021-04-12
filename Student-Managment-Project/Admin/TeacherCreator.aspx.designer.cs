@@ -7,48 +7,57 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Student_Managment_Project
+namespace Student_Managment_Project.Admin
 {
 
 
-    public partial class TutorPage
+    public partial class TeacherCreator
     {
 
         /// <summary>
-        /// TxtTutorname control.
+        /// TxtTeacherID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtTutorname;
+        protected global::System.Web.UI.WebControls.TextBox TxtTeacherID;
 
         /// <summary>
-        /// TxtEmail control.
+        /// TxtTeacherUsernameID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtEmail;
+        protected global::System.Web.UI.WebControls.TextBox TxtTeacherUsernameID;
 
         /// <summary>
-        /// TxtPhone control.
+        /// TxtTeacherName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtPhone;
+        protected global::System.Web.UI.WebControls.TextBox TxtTeacherName;
 
         /// <summary>
-        /// DDLCourse control.
+        /// TxtTeacherSurname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DDLCourse;
+        protected global::System.Web.UI.WebControls.TextBox TxtTeacherSurname;
+
+        /// <summary>
+        /// TeacherCourse control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList TeacherCourse;
 
         /// <summary>
         /// SqlDataSource1 control.
@@ -60,22 +69,49 @@ namespace Student_Managment_Project
         protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
 
         /// <summary>
-        /// TxtQualification control.
+        /// TxtTeacherPhone control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtQualification;
+        protected global::System.Web.UI.WebControls.TextBox TxtTeacherPhone;
 
         /// <summary>
-        /// LitJoinDate control.
+        /// TxtTeacherEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal LitJoinDate;
+        protected global::System.Web.UI.WebControls.TextBox TxtTeacherEmail;
+
+        /// <summary>
+        /// CalTeacherBirth control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Calendar CalTeacherBirth;
+
+        /// <summary>
+        /// TxtTeacherUsername control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TxtTeacherUsername;
+
+        /// <summary>
+        /// TxtTeacherPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TxtTeacherPassword;
 
         /// <summary>
         /// ButTutor control.

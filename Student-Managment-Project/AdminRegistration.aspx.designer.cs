@@ -11,125 +11,107 @@ namespace Student_Managment_Project
 {
 
 
-    public partial class StudentPage
+    public partial class WebForm1
     {
 
         /// <summary>
-        /// TxtStFname control.
+        /// form1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtStFname;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// TxtStLname control.
+        /// TxtAdminRegisterID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtStLname;
+        protected global::System.Web.UI.WebControls.TextBox TxtAdminRegisterID;
 
         /// <summary>
-        /// TxtFatherName control.
+        /// TxtAdminUsernameID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtFatherName;
+        protected global::System.Web.UI.WebControls.TextBox TxtAdminUsernameID;
 
         /// <summary>
-        /// TxtFatherPhone control.
+        /// TxtAdminName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtFatherPhone;
+        protected global::System.Web.UI.WebControls.TextBox TxtAdminName;
 
         /// <summary>
-        /// TxtStEmail control.
+        /// TxtAdminSurname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtStEmail;
+        protected global::System.Web.UI.WebControls.TextBox TxtAdminSurname;
 
         /// <summary>
-        /// TxtPhone control.
+        /// CalAdminBirthday control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtPhone;
+        protected global::System.Web.UI.WebControls.Calendar CalAdminBirthday;
 
         /// <summary>
-        /// DDLCourseName control.
+        /// TxtAdminEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DDLCourseName;
+        protected global::System.Web.UI.WebControls.TextBox TxtAdminEmail;
 
         /// <summary>
-        /// SqlDataSource1 control.
+        /// TxtAdminPhone control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
+        protected global::System.Web.UI.WebControls.TextBox TxtAdminPhone;
 
         /// <summary>
-        /// LabCourseFees control.
+        /// TxtAdminUsername control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabCourseFees;
+        protected global::System.Web.UI.WebControls.TextBox TxtAdminUsername;
 
         /// <summary>
-        /// TxtCourseInstallment control.
+        /// TxtAdminPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtCourseInstallment;
+        protected global::System.Web.UI.WebControls.TextBox TxtAdminPassword;
 
         /// <summary>
-        /// LabDueFees control.
+        /// ButRegister control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabDueFees;
-
-        /// <summary>
-        /// LitJoindate control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal LitJoindate;
-
-        /// <summary>
-        /// ButStudent control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButStudent;
+        protected global::System.Web.UI.WebControls.Button ButRegister;
 
         /// <summary>
         /// Labmsg control.
@@ -139,5 +121,14 @@ namespace Student_Managment_Project
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Labmsg;
+
+        /// <summary>
+        /// ButGoBack control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButGoBack;
     }
 }
