@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Student.master.cs" Inherits="Student_Managment_Project.Student.Student" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+        <Center>
+            <h1>Student page</h1>
+            <hr />
+            <div style="background-color:aliceblue;">
+                <asp:Label ID="LabUserLogin" runat="server" Text=""></asp:Label>    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:LinkButton ID="LnkStudentHome" runat="server" OnClick="LnkStudentHome_Click">Home</asp:LinkButton>&nbsp;&nbsp;&nbsp;
+                <asp:LinkButton ID="LnkCourses" runat="server" OnClick="LnkCourses_Click">Courses</asp:LinkButton>&nbsp;&nbsp;&nbsp;
+                <asp:LinkButton ID="LnkAssignments" runat="server" OnClick="LnkAssignments_Click">Assignments</asp:LinkButton>&nbsp;&nbsp;&nbsp;
+                <asp:LinkButton ID="LnkLogout" runat="server" OnClick="LnkLogout_Click">Logout</asp:LinkButton>&nbsp;&nbsp;&nbsp;
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </Center>
+        </div>
+    </form>
+</body>
+</html>

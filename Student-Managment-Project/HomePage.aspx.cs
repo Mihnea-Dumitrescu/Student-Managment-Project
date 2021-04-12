@@ -24,13 +24,17 @@ namespace Student_Managment_Project
             else if (TxtAdminId.Text == "Mihnea" && TxtPwdAdmin.Text == "abc")
             {
                 Session["Adminname"] = "Welcome " + TxtAdminId.Text;
-                Response.Redirect("StudentHome.aspx");
+                Response.Redirect("Student/StudentHomePage.aspx");
             }
             else
             {
                 Labmsg.Text = "Failed Login Details...";
             }
 
+        }
+        protected void ButAdminRegistration_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("AdminRegistration.aspx");
         }
 
     }

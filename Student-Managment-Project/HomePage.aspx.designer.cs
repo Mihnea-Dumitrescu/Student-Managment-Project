@@ -58,5 +58,14 @@ namespace Student_Managment_Project
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Labmsg;
+
+        /// <summary>
+        /// ButAdminRegistration control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButAdminRegistration;
     }
 }

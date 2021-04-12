@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/SMS.Master" AutoEventWireup="true" CodeBehind="TeacherCreator.aspx.cs" Inherits="Student_Managment_Project.Admin.TeacherCreator" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1>This is Teacher Creation Page</h1>
-    <div style="background-color:azure; width: 231px;">
+    <div style="background-color:azure; " class="auto-style2">
         <table border="1">
             <tr>
                 <td>
@@ -65,10 +65,21 @@
                     <asp:TextBox ID="TxtTeacherPassword" runat="server"></asp:TextBox></td>
             </tr>
             <tr>
-                <td>
+                <td class="auto-style1">
                     <asp:Button ID="ButTutor" runat="server" Text="Insert" OnClick="ButTutor_Click" /></td>
-                <td>
+                <td class="auto-style1">
                     <asp:Label ID="Labmsg" runat="server" Text="" ForeColor="Green"></asp:Label></td>
             </tr>
     </div>
 </asp:Content>
+<asp:Content ID="Content2" runat="server" contentplaceholderid="head">
+    <style type="text/css">
+        .auto-style1 {
+            height: 32px;
+        }
+        .auto-style2 {
+            width: 318px;
+        }
+    </style>
+</asp:Content>
+
