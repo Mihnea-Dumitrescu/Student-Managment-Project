@@ -17,10 +17,12 @@
             <div style="background-color:aliceblue;">
                 <asp:Label ID="LabUserLogin" runat="server" Text=""></asp:Label>    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:LinkButton ID="LnkCourse" runat="server" OnClick="LnkCourse_Click">Course</asp:LinkButton>&nbsp;&nbsp;&nbsp;
-                <asp:LinkButton ID="LnkTeacher" runat="server" OnClick="LnkTeacher_Click">Teacher</asp:LinkButton>&nbsp;&nbsp;&nbsp;
+                <!--<asp:LinkButton ID="LinkInsertTeacher" runat="server" OnClick="LinkInsertTeacher_Click">Teacher</asp:LinkButton>&nbsp;&nbsp;&nbsp;-->
+                <asp:LinkButton ID="LinkTeacherOptions" runat="server" OnClick="LinkTeacherOptions_Click">Teacher</asp:LinkButton>&nbsp;&nbsp;&nbsp;
                 <asp:LinkButton ID="LnkStudent" runat="server" OnClick="LnkStudent_Click">Student</asp:LinkButton>&nbsp;&nbsp;&nbsp;
                 <asp:LinkButton ID="LnkAdmin" runat="server" OnClick="LnkAdmin_Click">Admin</asp:LinkButton>&nbsp;&nbsp;&nbsp;
                 <asp:LinkButton ID="LnkLogout" runat="server" OnClick="LnkLogout_Click">Logout</asp:LinkButton>&nbsp;&nbsp;&nbsp;
+                <!--<asp:LinkButton ID="Link" runat="server">LinkButton</asp:LinkButton>-->
             </div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>

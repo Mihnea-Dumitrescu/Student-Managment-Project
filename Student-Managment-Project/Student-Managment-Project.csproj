@@ -71,6 +71,7 @@
     <Content Include="Admin\CourseCreator.aspx" />
     <Content Include="Admin\StudentCreator.aspx" />
     <Content Include="Admin\TeacherCreator.aspx" />
+    <Content Include="Admin\TeacherOptions.aspx" />
     <Content Include="HomePage.aspx" />
     <Content Include="Student\StudentHomePage.aspx" />
     <Content Include="Web.config" />
@@ -111,6 +112,13 @@
     </Compile>
     <Compile Include="Admin\TeacherCreator.aspx.designer.cs">
       <DependentUpon>TeacherCreator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\TeacherOptions.aspx.cs">
+      <DependentUpon>TeacherOptions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\TeacherOptions.aspx.designer.cs">
+      <DependentUpon>TeacherOptions.aspx</DependentUpon>
     </Compile>
     <Compile Include="HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>

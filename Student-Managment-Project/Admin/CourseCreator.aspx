@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/SMS.Master" AutoEventWireup="true" CodeBehind="CourseCreator.aspx.cs" Inherits="Student_Managment_Project.Admin.CourseCreator" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1>This is Course Page ...</h1>
-    <div style="background-color:azure;  height: 120px; width: 303px;">
+    <div style="background-color:azure;  height: 1920px; width: 1080px;">
     <table border="1">
         <tr>
             <td>Course ID</td>

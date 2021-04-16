@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/SMS.Master" AutoEventWireup="true" CodeBehind="TeacherCreator.aspx.cs" Inherits="Student_Managment_Project.Admin.TeacherCreator" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h1>This is Teacher Creation Page</h1>
+    <h1>Please fill in the details about the new teacher</h1>
     <div style="background-color:azure; " class="auto-style2">
         <table border="1">
             <tr>

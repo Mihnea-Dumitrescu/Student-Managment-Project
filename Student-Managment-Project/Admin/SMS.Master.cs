@@ -26,9 +26,14 @@ namespace Student_Managment_Project
             Response.Redirect("CourseCreator.aspx");
         }
 
-        protected void LnkTeacher_Click(object sender, EventArgs e)
+        protected void LinkInsertTeacher_Click(object sender, EventArgs e)
         {
             Response.Redirect("TeacherCreator.aspx");
+        }
+
+        protected void LinkTeacherOptions_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("TeacherOptions.aspx");
         }
 
         protected void LnkStudent_Click(object sender, EventArgs e)

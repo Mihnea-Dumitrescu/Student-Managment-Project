@@ -30,7 +30,6 @@ namespace Student_Managment_Project
             {
                 Labmsg.Text = "Failed Login Details...";
             }
-
         }
         protected void ButAdminRegistration_Click(object sender, EventArgs e)
         {
