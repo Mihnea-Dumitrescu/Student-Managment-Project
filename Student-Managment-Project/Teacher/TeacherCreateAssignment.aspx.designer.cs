@@ -7,92 +7,74 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Student_Managment_Project.Student
+namespace Student_Managment_Project.Teacher
 {
 
 
-    public partial class Student
+    public partial class TeacherCreateAssignment
     {
 
         /// <summary>
-        /// head control.
+        /// TxtAssignmentID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
+        protected global::System.Web.UI.WebControls.TextBox TxtAssignmentID;
 
         /// <summary>
-        /// form1 control.
+        /// TxtAssignmentName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.TextBox TxtAssignmentName;
 
         /// <summary>
-        /// LabUserLogin control.
+        /// CalStartDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabUserLogin;
+        protected global::System.Web.UI.WebControls.Calendar CalStartDate;
 
         /// <summary>
-        /// LnkStudentHome control.
+        /// CalEndDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton LnkStudentHome;
+        protected global::System.Web.UI.WebControls.Calendar CalEndDate;
 
         /// <summary>
-        /// LnkCourses control.
+        /// ButNewStudent control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton LnkCourses;
+        protected global::System.Web.UI.WebControls.Button ButNewStudent;
 
         /// <summary>
-        /// LnkAssignments control.
+        /// ButAssignment control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton LnkAssignments;
+        protected global::System.Web.UI.WebControls.Button ButAssignment;
 
         /// <summary>
-        /// LnkLogout control.
+        /// Labmsg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton LnkLogout;
-
-        /// <summary>
-        /// ContentPlaceHolder1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
-
-        /// <summary>
-        /// ContentPlaceHolder2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder2;
+        protected global::System.Web.UI.WebControls.Label Labmsg;
     }
 }

@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Student_Managment_Project.Student
+namespace Student_Managment_Project.Teacher
 {
 
 
-    public partial class Student
+    public partial class Teacher
     {
 
         /// <summary>
@@ -42,22 +42,13 @@ namespace Student_Managment_Project.Student
         protected global::System.Web.UI.WebControls.Label LabUserLogin;
 
         /// <summary>
-        /// LnkStudentHome control.
+        /// LnkHome control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton LnkStudentHome;
-
-        /// <summary>
-        /// LnkCourses control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton LnkCourses;
+        protected global::System.Web.UI.WebControls.LinkButton LnkHome;
 
         /// <summary>
         /// LnkAssignments control.
@@ -85,14 +76,5 @@ namespace Student_Managment_Project.Student
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
-
-        /// <summary>
-        /// ContentPlaceHolder2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder2;
     }
 }

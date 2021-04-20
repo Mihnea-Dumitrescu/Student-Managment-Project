@@ -7,6 +7,22 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+<style>
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+</style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -14,13 +30,17 @@
         <Center>
             <h1>Student page</h1>
             <hr />
-            <div style="background-color:aliceblue;">
+            <div class="topnav">
                 <asp:Label ID="LabUserLogin" runat="server" Text=""></asp:Label>    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:LinkButton ID="LnkStudentHome" runat="server" OnClick="LnkStudentHome_Click">Home</asp:LinkButton>&nbsp;&nbsp;&nbsp;
                 <asp:LinkButton ID="LnkCourses" runat="server" OnClick="LnkCourses_Click">Courses</asp:LinkButton>&nbsp;&nbsp;&nbsp;
                 <asp:LinkButton ID="LnkAssignments" runat="server" OnClick="LnkAssignments_Click">Assignments</asp:LinkButton>&nbsp;&nbsp;&nbsp;
                 <asp:LinkButton ID="LnkLogout" runat="server" OnClick="LnkLogout_Click">Logout</asp:LinkButton>&nbsp;&nbsp;&nbsp;
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
                 </asp:ContentPlaceHolder>
             </div>
         </Center>

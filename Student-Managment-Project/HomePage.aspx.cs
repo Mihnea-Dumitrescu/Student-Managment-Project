@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data.SqlClient;
+using System.Data;
 
 namespace Student_Managment_Project
 {
@@ -30,6 +32,20 @@ namespace Student_Managment_Project
             {
                 Labmsg.Text = "Failed Login Details...";
             }
+
+        }
+        protected void ButStudentLogin_Click()
+        {
+
+
+
+        }
+        protected void ButTeacherLogin_Click(object sender, EventArgs e)
+        {
+
+        }
+        protected void ButAdminLogin_Click(object sender, EventArgs e)
+        {
 
         }
         protected void ButAdminRegistration_Click(object sender, EventArgs e)
